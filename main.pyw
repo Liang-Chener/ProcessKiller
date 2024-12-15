@@ -60,7 +60,7 @@ def read_config():
     return config
 if __name__ == "__main__":
     config = read_config()
-    target_process_names = config.get('processes', "msedge.exe,WeChat.exe").split(',')
+    target_process_names = config.get('processes', "example1.exe,example2.exe").split(',')
     interval = float(config.get('interval', 0.1))
     last_pids = {}
 
