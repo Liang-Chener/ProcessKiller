@@ -1,0 +1,2 @@
+processes=msedge.exe,WeChat.exe
+interval=0.01
